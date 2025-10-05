@@ -17,8 +17,9 @@ int main() {
     printf("Length of shadow (L) = %.2f units\n", L);
     }
     else {
-    	printf("Enter valid values as length cannot be negative.");
+    	printf("Enter valid values as length cannot be negative or equal to 0.");
 	}
     return 0;
 }
+
 
